@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Base.TestListener"/>
+
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+     
+       <class name="TestFunctions.LoginTest"/>
+       <!--  class name="TestFunctions.SettingsLocationTest"/>
+       <class name="TestFunctions.SettingsAreaTest"/> 
+       <class name="TestFunctions.SettingsCellTest"/>
+       <class name="TestFunctions.SettingsQuestionsTest"/>
+       <class name="TestFunctions.SettingsWDGLTest"/-->
+       <class name="TestFunctions.SettingsAssignQstnTest"/>
+       <class name="TestFunctions.SettingsQuestionsTest2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
